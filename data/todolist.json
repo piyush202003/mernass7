@@ -1,0 +1,14 @@
+{
+    "todolist": [
+        { "id": 1, "user_id":2, "task": "Buy groceries", "completed": false },
+        { "id": 2, "user_id":2, "task": "Walk the dog", "completed": true },
+        { "id": 3, "user_id":2, "task": "Read a book", "completed": false },
+        { "id": 4, "user_id":1, "task": "Finish homework", "completed": true },
+        { "id": 5, "user_id":1, "task": "Clean the room", "completed": false },
+        { "id": 6, "user_id":3, "task": "Pay bills", "completed": true },
+        { "id": 7, "user_id":3, "task": "Call mom", "completed": false },
+        { "id": 8, "user_id":1, "task": "Exercise", "completed": true },
+        { "id": 9, "user_id":2, "task": "Cook dinner", "completed": false },
+        { "id": 10, "user_id":3, "task": "Meditate", "completed": true }
+    ]
+}
