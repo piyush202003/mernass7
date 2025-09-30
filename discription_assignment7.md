@@ -1,8 +1,9 @@
 <h1>ToDoList Assignment 7</h1>
 
-Now, here there are 2 set of APIs:
-    1)User
-    2)ToDoList
+Now, here there are 2 set of APIs:<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This text is indented with 4 spaces.</p>
+    1)User<br>
+    2)ToDoList<br>
 
 <h2>1)User:</h2><br>
     get =>http://localhost:8081/users => to get all existing users<br>
@@ -30,6 +31,7 @@ Now, here there are 2 set of APIs:
     <img src="images/todolist/image5.png" alt="Screenshot" width="600"><br>
     delete =>http://localhost:8081/todolist/:userid/:taskid => to delete certain task with id taskid<br>
     <img src="images/todolist/image6.png" alt="Screenshot" width="600"><br>
+
 
 
 
