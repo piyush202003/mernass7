@@ -140,7 +140,7 @@ app.get('/todolist/:userid', (req, res) => {
         message: `No tasks found for user id: ${userid}`
     });
 });
-app.get('todolist/:userid/:taskid', (req, res) => {
+app.get('/todolist/:userid/:taskid', (req, res) => {
     const { userid, taskid } = req.params;
     const task = todolist.find((each) => each.user_id === Number(userid) && each.id === Number(taskid));
     if(task){
