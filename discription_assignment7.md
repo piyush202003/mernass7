@@ -4,17 +4,17 @@ Now, here there are 2 set of APIs:
     1)User
     2)ToDoList
 
-1)User:
-    get =>http://localhost:8081/users => to get all existing users
-    <img src="images/users/image.png" alt="Screenshot" width="600">
-    get =>http://localhost:8081/users/:id => to get user with specific id
-    <img src="images/users/image2.png" alt="Screenshot" width="600">
-    post =>http://localhost:8081/users => to creat a new user account (must have email which don't have account) input can be data(name, email, password)
-    <img src="images/users/image3.png" alt="Screenshot" width="600">
-    put =>http://localhost:8081/users/:id => enter user id which you want to update there information input can be data(name, email, password)
-    <img src="images/users/image4.png" alt="Screenshot" width="600">
-    delete =>http://localhost:8081/users/:id => to delete certain user account
-    <img src="images/users/imag5.png" alt="Screenshot" width="600">
+1)User:<br>
+    get =>http://localhost:8081/users => to get all existing users<br>
+    <img src="images/users/image.png" alt="Screenshot" width="600"><br>
+    get =>http://localhost:8081/users/:id => to get user with specific id<br>
+    <img src="images/users/image2.png" alt="Screenshot" width="600"><br>
+    post =>http://localhost:8081/users => to creat a new user account (must have email which don't have account) input can be data(name, email, password)<br>
+    <img src="images/users/image3.png" alt="Screenshot" width="600"><br>
+    put =>http://localhost:8081/users/:id => enter user id which you want to update there information input can be data(name, email, password)<br>
+    <img src="images/users/image4.png" alt="Screenshot" width="600"><br>
+    delete =>http://localhost:8081/users/:id => to delete certain user account<br>
+    <img src="images/users/imag5.png" alt="Screenshot" width="600"><br>
 
 
 2)ToDoList
@@ -29,4 +29,5 @@ Now, here there are 2 set of APIs:
     put =>http://localhost:8081/todolist/:userid/:taskid => to update certain task with id taskid input can be task and complete(option: true,false)
     <img src="images/todolist/image5.png" alt="Screenshot" width="600">
     delete =>http://localhost:8081/todolist/:userid/:taskid => to delete certain task with id taskid
+
     <img src="images/todolist/image6.png" alt="Screenshot" width="600">
